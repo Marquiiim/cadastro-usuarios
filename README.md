@@ -19,4 +19,7 @@ Este é um projeto de página de **registro simples** e **funcional**, desenvolv
 
 A API expõe o seguinte endpoint principais para interagir com o sistema:
 
-- **POST** `/api/auth/register`: Criação de novos usuários (parâmetros: `nome`, `email`, `senha`).
+- **POST**: Criação de novos usuários (parâmetros: `nome`, `email`, `senha`).
+- **DELETE**: Remoção de usuários.
+- **GET**: Solicitar dados ou uma lista de dados de um servidor.
+- **PUT**: Atualizar um recurso específico.
