@@ -41,9 +41,9 @@ function Home() {
         <h1>
           Cadastro de Usuários
         </h1>
-        <input type="text" placeholder='Nome' ref={inputName} />
-        <input type="number" placeholder='Idade' ref={inputAge} />
-        <input type="email" placeholder='Email' ref={inputEmail} />
+        <input type="text" placeholder='Nome' ref={inputName} required />
+        <input type="number" placeholder='Idade' ref={inputAge} required />
+        <input type="email" placeholder='Email' ref={inputEmail} required />
         <button type='button' onClick={createUsers}>Cadastrar</button>
       </form>
 
